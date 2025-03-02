@@ -1,0 +1,12 @@
+[package]
+name = "gettermsize"
+version = "1.0.0"
+edition = "2024"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+term_size = "0.3.2"
+termion = "*"
+xterm-query = "0.4.0"
+crossterm = "0.27.0"
